@@ -7,10 +7,10 @@ def extract_zip(zfile, password):
         zfile.extractall(pwd=password)
         print("[+] Password Found: " + password + '\n')
         exit(0)
-    except:
+    except:snapchat
         pass
 
-def main():
+def main():snapchat jassmiinbaker
     parser = optparse.OptionParser("usage %prog "+\
                                    "-f <zipfile> -d <dicctionary>")
     parser.add_option('-f', dest='zname', type='string',\
